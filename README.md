@@ -1,4 +1,5 @@
 # RDS COVID-19 IPython Notebook
+## WARNING: THIS PROJECT IS IN EARLY DEVELOPMENT STAGE. CONTENT OR CODE SHOULD ONLY BE USED FOR TESTING OR EVALUATION PURPOSES.
 This notebook demonstrates the power and efficiency of our Rich Data Services (RDS) framework through the use of a simple python API library. As the COVID-19 pandemic is of a global concern, this notebook focuses on the COVID-19 data gathered through [John Hopkins University](https://coronavirus.jhu.edu/).
 
 ## Software
