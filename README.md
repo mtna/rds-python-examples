@@ -1,28 +1,11 @@
-# RDS COVID-19 IPython Notebook
+# RDS Python Examples
 ## WARNING: THIS PROJECT IS IN EARLY DEVELOPMENT STAGE. CONTENT OR CODE SHOULD ONLY BE USED FOR TESTING OR EVALUATION PURPOSES.
-This notebook demonstrates the power and efficiency of our Rich Data Services (RDS) framework through the use of a simple python API library. As the COVID-19 pandemic is of a global concern, this notebook focuses on the COVID-19 data gathered through [John Hopkins University](https://coronavirus.jhu.edu/).
+[RDS](https://www.richdataservices.com/) is an API suite by [Metadata Technology North America](https://www.mtna.us/) that provides a selection of services for managing, transforming, profiling, validating, and ingesting your data. RDS aims at removing the complications of data and providing you with ease of access to everything the data can be.
 
-## Software
-Python version 3.5 or higher is required for the notebook.
+**Rds Python Examples** is the python repository for examples that demonstrate how Python and RDS can work together. These examples showcase useful or interesting features of RDS and show how it can be useful in various circumstances.
 
-We recommend [Jupyter](https://jupyter.org/) to view the notebook. This is available through [Anaconda](https://www.anaconda.com/)
+## Overview
+This repository may contain python, Jupyter notebook, and markdown files. Any of these can be run by cloning the repositoy and installing the appropriate software and python packages. All of these examples require that python 3.5 or higher has been installed along with any prerequisite python packages. Jupyter notebook examples require that you have either Jupyter Notebook or JupyterLab installed.
 
-The [Rich Data Services Python](https://github.com/mtna/rds-python) project is used to query for data from our databases as well as to get any relevant metadata. This can be installed by running:
-```bash
-pip install mtna-rds
-```
-
-The examples used in the notebook create Plotly graphs. To be able to use plotly, you must run the following command:
-```bash
-pip install plotly
-```
-
-To be able to render the Plotly graphs correctly, Jupyterlab must have the correct extension, which can be installed by running the command:
-```bash
-jupyter labextension install jupyterlab-plotly
-```
-
-## About
-This notebook is published and maintained by [MTNA](https://www.mtna.us/).
-
-To see what else we are doing to contribute doing the COVID-19 pandemic, visit our site [here](https://covid19.richdataservices.com/).
+## Examples
+- [Covid-19 Notebook](https://github.com/mtna/rds-python-examples/blob/master/notebook/covid_19.ipynb): Uses Ohio Covid-19 case data to demonstrate the ease of use of RDS and how it simplifies the process of retrieving data for the purposes of charting/graphing it.
