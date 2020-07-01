@@ -8,8 +8,8 @@ provides formatting for COVID-19 Notebook
 @author: seanlucas
 """
 
-def html_catalog(dataproduct):
-    metadata = dataproduct.catalog()
+def html_catalog(catalog):
+    metadata = catalog.get_metadata()
     dataproduct_rows = ''
     for dataproduct in metadata['dataProducts']:
         dataproduct_rows += f'''
@@ -41,7 +41,7 @@ def html_catalog(dataproduct):
     '''
 
 def html_variables(dataproduct):
-    metadata = dataproduct.variable()
+    metadata = dataproduct.get_variable()
     var_rows = ''
     for variable in metadata:
         class_id = ''
@@ -83,10 +83,10 @@ def html_variables(dataproduct):
     '''
 
 def html_classification(dataproduct, class_id, limit=20):
-    metadata = dataproduct.classification(class_id)
+    metadata = dataproduct.get_classification(class_id)
     code_count = metadata['rootCodeCount']
 
-    codes = dataproduct.code(class_id, limit)
+    codes = dataproduct.get_code(class_id, limit)
     code_rows = ''
     for code in codes:
         code_rows += f'''
