@@ -25,4 +25,4 @@ jupyter labextension install jupyterlab-plotly
 ## About
 This notebook is published and maintained by [MTNA](https://www.mtna.us/).
 
-To see what else we are doing to contribute doing the COVID-19 pandemic, visit our site [here](https://covid19.richdataservices.com/).
+To see what else we are doing to contribute during the COVID-19 pandemic, visit our site [here](https://covid19.richdataservices.com/).
