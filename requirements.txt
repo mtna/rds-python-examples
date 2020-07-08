@@ -1,0 +1,7 @@
+mtna-rds
+plotly
+matplotlib
+pandas
+seaborn
+lxml
+bs4
